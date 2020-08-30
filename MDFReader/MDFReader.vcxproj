@@ -1,0 +1,230 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{4CC1FDAD-19B0-442E-AEF8-72568D9176DE}</ProjectGuid>
+    <RootNamespace>MDFReader</RootNamespace>
+    <Keyword>MFCProj</Keyword>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <CharacterSet>Unicode</CharacterSet>
+    <UseOfMfc>Dynamic</UseOfMfc>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+    <UseOfMfc>Dynamic</UseOfMfc>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+    <Midl>
+      <MkTypLibCompatible>false</MkTypLibCompatible>
+      <ValidateAllParameters>true</ValidateAllParameters>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </Midl>
+    <ResourceCompile>
+      <Culture>0x0804</Culture>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>$(IntDir);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+    <Midl>
+      <MkTypLibCompatible>false</MkTypLibCompatible>
+      <ValidateAllParameters>true</ValidateAllParameters>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </Midl>
+    <ResourceCompile>
+      <Culture>0x0804</Culture>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>$(IntDir);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <None Include="ReadMe.txt" />
+    <None Include="res\MDFReader.ico" />
+    <None Include="res\MDFReader.rc2" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="include\abstract.h" />
+    <ClInclude Include="include\asdl.h" />
+    <ClInclude Include="include\ast.h" />
+    <ClInclude Include="include\bitset.h" />
+    <ClInclude Include="include\bltinmodule.h" />
+    <ClInclude Include="include\boolobject.h" />
+    <ClInclude Include="include\bytearrayobject.h" />
+    <ClInclude Include="include\bytesobject.h" />
+    <ClInclude Include="include\bytes_methods.h" />
+    <ClInclude Include="include\cellobject.h" />
+    <ClInclude Include="include\ceval.h" />
+    <ClInclude Include="include\classobject.h" />
+    <ClInclude Include="include\code.h" />
+    <ClInclude Include="include\codecs.h" />
+    <ClInclude Include="include\compile.h" />
+    <ClInclude Include="include\complexobject.h" />
+    <ClInclude Include="include\context.h" />
+    <ClInclude Include="include\datetime.h" />
+    <ClInclude Include="include\descrobject.h" />
+    <ClInclude Include="include\dictobject.h" />
+    <ClInclude Include="include\dtoa.h" />
+    <ClInclude Include="include\dynamic_annotations.h" />
+    <ClInclude Include="include\enumobject.h" />
+    <ClInclude Include="include\errcode.h" />
+    <ClInclude Include="include\eval.h" />
+    <ClInclude Include="include\fileobject.h" />
+    <ClInclude Include="include\fileutils.h" />
+    <ClInclude Include="include\floatobject.h" />
+    <ClInclude Include="include\frameobject.h" />
+    <ClInclude Include="include\funcobject.h" />
+    <ClInclude Include="include\genobject.h" />
+    <ClInclude Include="include\graminit.h" />
+    <ClInclude Include="include\grammar.h" />
+    <ClInclude Include="include\import.h" />
+    <ClInclude Include="include\interpreteridobject.h" />
+    <ClInclude Include="include\intrcheck.h" />
+    <ClInclude Include="include\iterobject.h" />
+    <ClInclude Include="include\listobject.h" />
+    <ClInclude Include="include\longintrepr.h" />
+    <ClInclude Include="include\longobject.h" />
+    <ClInclude Include="include\marshal.h" />
+    <ClInclude Include="include\memoryobject.h" />
+    <ClInclude Include="include\methodobject.h" />
+    <ClInclude Include="include\modsupport.h" />
+    <ClInclude Include="include\moduleobject.h" />
+    <ClInclude Include="include\namespaceobject.h" />
+    <ClInclude Include="include\node.h" />
+    <ClInclude Include="include\object.h" />
+    <ClInclude Include="include\objimpl.h" />
+    <ClInclude Include="include\odictobject.h" />
+    <ClInclude Include="include\opcode.h" />
+    <ClInclude Include="include\osdefs.h" />
+    <ClInclude Include="include\osmodule.h" />
+    <ClInclude Include="include\parsetok.h" />
+    <ClInclude Include="include\patchlevel.h" />
+    <ClInclude Include="include\picklebufobject.h" />
+    <ClInclude Include="include\pyarena.h" />
+    <ClInclude Include="include\pycapsule.h" />
+    <ClInclude Include="include\pyconfig.h" />
+    <ClInclude Include="include\pyctype.h" />
+    <ClInclude Include="include\pydebug.h" />
+    <ClInclude Include="include\pydtrace.h" />
+    <ClInclude Include="include\pyerrors.h" />
+    <ClInclude Include="include\pyexpat.h" />
+    <ClInclude Include="include\pyfpe.h" />
+    <ClInclude Include="include\pyhash.h" />
+    <ClInclude Include="include\pylifecycle.h" />
+    <ClInclude Include="include\pymacconfig.h" />
+    <ClInclude Include="include\pymacro.h" />
+    <ClInclude Include="include\pymath.h" />
+    <ClInclude Include="include\pymem.h" />
+    <ClInclude Include="include\pyport.h" />
+    <ClInclude Include="include\pystate.h" />
+    <ClInclude Include="include\pystrcmp.h" />
+    <ClInclude Include="include\pystrhex.h" />
+    <ClInclude Include="include\pystrtod.h" />
+    <ClInclude Include="include\Python-ast.h" />
+    <ClInclude Include="include\Python.h" />
+    <ClInclude Include="include\pythonrun.h" />
+    <ClInclude Include="include\pythread.h" />
+    <ClInclude Include="include\pytime.h" />
+    <ClInclude Include="include\py_curses.h" />
+    <ClInclude Include="include\rangeobject.h" />
+    <ClInclude Include="include\setobject.h" />
+    <ClInclude Include="include\sliceobject.h" />
+    <ClInclude Include="include\structmember.h" />
+    <ClInclude Include="include\structseq.h" />
+    <ClInclude Include="include\symtable.h" />
+    <ClInclude Include="include\sysmodule.h" />
+    <ClInclude Include="include\token.h" />
+    <ClInclude Include="include\traceback.h" />
+    <ClInclude Include="include\tracemalloc.h" />
+    <ClInclude Include="include\tupleobject.h" />
+    <ClInclude Include="include\typeslots.h" />
+    <ClInclude Include="include\ucnhash.h" />
+    <ClInclude Include="include\unicodeobject.h" />
+    <ClInclude Include="include\warnings.h" />
+    <ClInclude Include="include\weakrefobject.h" />
+    <ClInclude Include="MDFData.h" />
+    <ClInclude Include="MdfImport.h" />
+    <ClInclude Include="MDFReader.h" />
+    <ClInclude Include="MDFReaderDlg.h" />
+    <ClInclude Include="Resource.h" />
+    <ClInclude Include="stdafx.h" />
+    <ClInclude Include="targetver.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="MDFData.cpp" />
+    <ClCompile Include="MdfImport.cpp" />
+    <ClCompile Include="MDFReader.cpp" />
+    <ClCompile Include="MDFReaderDlg.cpp" />
+    <ClCompile Include="stdafx.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="MDFReader.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <Library Include="libs\python3.lib" />
+    <Library Include="libs\python38.lib" />
+    <Library Include="libs\python38_d.lib" />
+    <Library Include="libs\_tkinter.lib" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

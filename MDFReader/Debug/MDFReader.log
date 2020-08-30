@@ -1,0 +1,179 @@
+﻿生成启动时间为 8/30/2020 09:56:39。
+     1>项目“D:\MyProject\MDFReader\MDFReader\MDFReader.vcxproj”在节点 2 上(build 个目标)。
+     1>InitializeBuildStatus:
+         正在创建“Debug\MDFReader.unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+       ClCompile:
+         所有输出均为最新。
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D _UNICODE /D UNICODE /D _AFXDLL /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"StdAfx.h" /Fp"Debug\MDFReader.pch" /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt MDFData.cpp MdfImport.cpp
+         MdfImport.cpp
+     1>d:\myproject\mdfreader\mdfreader\include\pytime.h(19): error C2146: 语法错误: 缺少“;”(在标识符“_PyTime_t”的前面)
+     1>d:\myproject\mdfreader\mdfreader\include\pytime.h(19): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+     1>d:\myproject\mdfreader\mdfreader\include\pytime.h(19): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+     1>d:\myproject\mdfreader\mdfreader\include\pytime.h(80): error C2146: 语法错误: 缺少“;”(在标识符“_PyTime_FromSeconds”的前面)
+     1>d:\myproject\mdfreader\mdfreader\include\pytime.h(80): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+     1>d:\myproject\mdfreader\mdfreader\include\pytime.h(80): error C2370: “_PyTime_t”: 重定义；不同的存储类
+                 d:\myproject\mdfreader\mdfreader\include\pytime.h(19) : 参见“_PyTime_t”的声明
+     1>d:\myproject\mdfreader\mdfreader\include\pytime.h(80): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+     1>d:\myproject\mdfreader\mdfreader\include\pytime.h(88): error C2146: 语法错误: 缺少“;”(在标识符“_PyTime_FromNanoseconds”的前面)
+     1>d:\myproject\mdfreader\mdfreader\include\pytime.h(88): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+     1>d:\myproject\mdfreader\mdfreader\include\pytime.h(88): error C2370: “_PyTime_t”: 重定义；不同的存储类
+                 d:\myproject\mdfreader\mdfreader\include\pytime.h(19) : 参见“_PyTime_t”的声明
+     1>d:\myproject\mdfreader\mdfreader\include\pytime.h(88): error C2146: 语法错误: 缺少“)”(在标识符“ns”的前面)
+     1>d:\myproject\mdfreader\mdfreader\include\pytime.h(88): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+     1>d:\myproject\mdfreader\mdfreader\include\pytime.h(88): error C2059: 语法错误:“)”
+     1>d:\myproject\mdfreader\mdfreader\include\pytime.h(91): error C2065: “t”: 未声明的标识符
+     1>d:\myproject\mdfreader\mdfreader\include\pytime.h(92): error C2065: “obj”: 未声明的标识符
+     1>d:\myproject\mdfreader\mdfreader\include\pytime.h(92): error C2275: “PyObject”: 将此类型用作表达式非法
+                 d:\myproject\mdfreader\mdfreader\include\object.h(108) : 参见“PyObject”的声明
+     1>d:\myproject\mdfreader\mdfreader\include\pytime.h(92): error C2491: “_PyTime_FromNanosecondsObject”: 不允许 dllimport 数据 的定义
+     1>d:\myproject\mdfreader\mdfreader\include\pytime.h(92): error C2078: 初始值设定项太多
+     1>d:\myproject\mdfreader\mdfreader\include\pytime.h(96): error C2065: “t”: 未声明的标识符
+     1>d:\myproject\mdfreader\mdfreader\include\pytime.h(97): error C2065: “obj”: 未声明的标识符
+     1>d:\myproject\mdfreader\mdfreader\include\pytime.h(97): error C2275: “PyObject”: 将此类型用作表达式非法
+                 d:\myproject\mdfreader\mdfreader\include\object.h(108) : 参见“PyObject”的声明
+     1>d:\myproject\mdfreader\mdfreader\include\pytime.h(98): error C2275: “_PyTime_round_t”: 将此类型用作表达式非法
+                 d:\myproject\mdfreader\mdfreader\include\pytime.h(43) : 参见“_PyTime_round_t”的声明
+     1>d:\myproject\mdfreader\mdfreader\include\pytime.h(98): error C2146: 语法错误: 缺少“)”(在标识符“round”的前面)
+     1>d:\myproject\mdfreader\mdfreader\include\pytime.h(98): error C2491: “_PyTime_FromSecondsObject”: 不允许 dllimport 数据 的定义
+     1>d:\myproject\mdfreader\mdfreader\include\pytime.h(98): error C2078: 初始值设定项太多
+     1>d:\myproject\mdfreader\mdfreader\include\pytime.h(98): error C2275: “_PyTime_round_t”: 将此类型用作表达式非法
+                 d:\myproject\mdfreader\mdfreader\include\pytime.h(43) : 参见“_PyTime_round_t”的声明
+     1>d:\myproject\mdfreader\mdfreader\include\pytime.h(98): error C2059: 语法错误:“)”
+     1>d:\myproject\mdfreader\mdfreader\include\pytime.h(102): error C2065: “t”: 未声明的标识符
+     1>d:\myproject\mdfreader\mdfreader\include\pytime.h(103): error C2065: “obj”: 未声明的标识符
+     1>d:\myproject\mdfreader\mdfreader\include\pytime.h(103): error C2275: “PyObject”: 将此类型用作表达式非法
+                 d:\myproject\mdfreader\mdfreader\include\object.h(108) : 参见“PyObject”的声明
+     1>d:\myproject\mdfreader\mdfreader\include\pytime.h(104): error C2275: “_PyTime_round_t”: 将此类型用作表达式非法
+                 d:\myproject\mdfreader\mdfreader\include\pytime.h(43) : 参见“_PyTime_round_t”的声明
+     1>d:\myproject\mdfreader\mdfreader\include\pytime.h(104): error C2146: 语法错误: 缺少“)”(在标识符“round”的前面)
+     1>d:\myproject\mdfreader\mdfreader\include\pytime.h(104): error C2491: “_PyTime_FromMillisecondsObject”: 不允许 dllimport 数据 的定义
+     1>d:\myproject\mdfreader\mdfreader\include\pytime.h(104): error C2078: 初始值设定项太多
+     1>d:\myproject\mdfreader\mdfreader\include\pytime.h(104): error C2275: “_PyTime_round_t”: 将此类型用作表达式非法
+                 d:\myproject\mdfreader\mdfreader\include\pytime.h(43) : 参见“_PyTime_round_t”的声明
+     1>d:\myproject\mdfreader\mdfreader\include\pytime.h(104): error C2059: 语法错误:“)”
+     1>d:\myproject\mdfreader\mdfreader\include\pytime.h(107): error C2146: 语法错误: 缺少“)”(在标识符“t”的前面)
+     1>d:\myproject\mdfreader\mdfreader\include\pytime.h(107): error C2491: “_PyTime_AsSecondsDouble”: 不允许 dllimport 数据 的定义
+     1>d:\myproject\mdfreader\mdfreader\include\pytime.h(107): error C2059: 语法错误:“)”
+     1>d:\myproject\mdfreader\mdfreader\include\pytime.h(110): error C2146: 语法错误: 缺少“;”(在标识符“_PyTime_AsMilliseconds”的前面)
+     1>d:\myproject\mdfreader\mdfreader\include\pytime.h(110): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+     1>d:\myproject\mdfreader\mdfreader\include\pytime.h(110): error C2370: “_PyTime_t”: 重定义；不同的存储类
+                 d:\myproject\mdfreader\mdfreader\include\pytime.h(19) : 参见“_PyTime_t”的声明
+     1>d:\myproject\mdfreader\mdfreader\include\pytime.h(110): error C2146: 语法错误: 缺少“)”(在标识符“t”的前面)
+     1>d:\myproject\mdfreader\mdfreader\include\pytime.h(110): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+     1>d:\myproject\mdfreader\mdfreader\include\pytime.h(111): error C2059: 语法错误:“)”
+     1>d:\myproject\mdfreader\mdfreader\include\pytime.h(114): error C2146: 语法错误: 缺少“;”(在标识符“_PyTime_AsMicroseconds”的前面)
+     1>d:\myproject\mdfreader\mdfreader\include\pytime.h(114): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+     1>d:\myproject\mdfreader\mdfreader\include\pytime.h(114): error C2370: “_PyTime_t”: 重定义；不同的存储类
+                 d:\myproject\mdfreader\mdfreader\include\pytime.h(19) : 参见“_PyTime_t”的声明
+     1>d:\myproject\mdfreader\mdfreader\include\pytime.h(114): error C2146: 语法错误: 缺少“)”(在标识符“t”的前面)
+     1>d:\myproject\mdfreader\mdfreader\include\pytime.h(114): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+     1>d:\myproject\mdfreader\mdfreader\include\pytime.h(115): error C2059: 语法错误:“)”
+     1>d:\myproject\mdfreader\mdfreader\include\pytime.h(119): error C2146: 语法错误: 缺少“)”(在标识符“t”的前面)
+     1>d:\myproject\mdfreader\mdfreader\include\pytime.h(119): error C2491: “_PyTime_AsNanosecondsObject”: 不允许 dllimport 数据 的定义
+     1>d:\myproject\mdfreader\mdfreader\include\pytime.h(119): error C2440: “初始化”: 无法从“int”转换为“PyObject *”
+                 从整型转换为指针类型要求 reinterpret_cast、C 样式转换或函数样式转换
+     1>d:\myproject\mdfreader\mdfreader\include\pytime.h(119): error C2059: 语法错误:“)”
+     1>d:\myproject\mdfreader\mdfreader\include\pytime.h(123): error C2065: “tp”: 未声明的标识符
+     1>d:\myproject\mdfreader\mdfreader\include\pytime.h(123): error C2226: 语法错误 : 意外的“timeval”类型
+     1>d:\myproject\mdfreader\mdfreader\include\pytime.h(129): error C2146: 语法错误: 缺少“)”(在标识符“t”的前面)
+     1>d:\myproject\mdfreader\mdfreader\include\pytime.h(129): error C2491: “_PyTime_AsTimeval”: 不允许 dllimport 数据 的定义
+     1>d:\myproject\mdfreader\mdfreader\include\pytime.h(131): error C2059: 语法错误:“)”
+     1>d:\myproject\mdfreader\mdfreader\include\pytime.h(134): error C2146: 语法错误: 缺少“)”(在标识符“t”的前面)
+     1>d:\myproject\mdfreader\mdfreader\include\pytime.h(134): error C2491: “_PyTime_AsTimeval_noraise”: 不允许 dllimport 数据 的定义
+     1>d:\myproject\mdfreader\mdfreader\include\pytime.h(136): error C2059: 语法错误:“)”
+     1>d:\myproject\mdfreader\mdfreader\include\pytime.h(145): error C2146: 语法错误: 缺少“)”(在标识符“t”的前面)
+     1>d:\myproject\mdfreader\mdfreader\include\pytime.h(145): error C2491: “_PyTime_AsTimevalTime_t”: 不允许 dllimport 数据 的定义
+     1>d:\myproject\mdfreader\mdfreader\include\pytime.h(148): error C2059: 语法错误:“)”
+     1>d:\myproject\mdfreader\mdfreader\include\pytime.h(163): error C2146: 语法错误: 缺少“;”(在标识符“_PyTime_MulDiv”的前面)
+     1>d:\myproject\mdfreader\mdfreader\include\pytime.h(163): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+     1>d:\myproject\mdfreader\mdfreader\include\pytime.h(163): error C2370: “_PyTime_t”: 重定义；不同的存储类
+                 d:\myproject\mdfreader\mdfreader\include\pytime.h(19) : 参见“_PyTime_t”的声明
+     1>d:\myproject\mdfreader\mdfreader\include\pytime.h(163): error C2146: 语法错误: 缺少“)”(在标识符“ticks”的前面)
+     1>d:\myproject\mdfreader\mdfreader\include\pytime.h(163): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+     1>d:\myproject\mdfreader\mdfreader\include\pytime.h(165): error C2059: 语法错误:“)”
+     1>d:\myproject\mdfreader\mdfreader\include\pytime.h(171): error C2146: 语法错误: 缺少“;”(在标识符“_PyTime_GetSystemClock”的前面)
+     1>d:\myproject\mdfreader\mdfreader\include\pytime.h(171): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+     1>d:\myproject\mdfreader\mdfreader\include\pytime.h(171): error C2370: “_PyTime_t”: 重定义；不同的存储类
+                 d:\myproject\mdfreader\mdfreader\include\pytime.h(19) : 参见“_PyTime_t”的声明
+     1>d:\myproject\mdfreader\mdfreader\include\pytime.h(171): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+     1>d:\myproject\mdfreader\mdfreader\include\pytime.h(180): error C2146: 语法错误: 缺少“;”(在标识符“_PyTime_GetMonotonicClock”的前面)
+     1>d:\myproject\mdfreader\mdfreader\include\pytime.h(180): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+     1>d:\myproject\mdfreader\mdfreader\include\pytime.h(180): error C2370: “_PyTime_t”: 重定义；不同的存储类
+                 d:\myproject\mdfreader\mdfreader\include\pytime.h(19) : 参见“_PyTime_t”的声明
+     1>d:\myproject\mdfreader\mdfreader\include\pytime.h(180): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+     1>d:\myproject\mdfreader\mdfreader\include\pytime.h(196): error C2065: “t”: 未声明的标识符
+     1>d:\myproject\mdfreader\mdfreader\include\pytime.h(197): error C2065: “info”: 未声明的标识符
+     1>d:\myproject\mdfreader\mdfreader\include\pytime.h(197): error C2275: “_Py_clock_info_t”: 将此类型用作表达式非法
+                 d:\myproject\mdfreader\mdfreader\include\pytime.h(189) : 参见“_Py_clock_info_t”的声明
+     1>d:\myproject\mdfreader\mdfreader\include\pytime.h(197): error C2491: “_PyTime_GetSystemClockWithInfo”: 不允许 dllimport 数据 的定义
+     1>d:\myproject\mdfreader\mdfreader\include\pytime.h(197): error C2078: 初始值设定项太多
+     1>d:\myproject\mdfreader\mdfreader\include\pytime.h(208): error C2065: “t”: 未声明的标识符
+     1>d:\myproject\mdfreader\mdfreader\include\pytime.h(209): error C2065: “info”: 未声明的标识符
+     1>d:\myproject\mdfreader\mdfreader\include\pytime.h(209): error C2275: “_Py_clock_info_t”: 将此类型用作表达式非法
+                 d:\myproject\mdfreader\mdfreader\include\pytime.h(189) : 参见“_Py_clock_info_t”的声明
+     1>d:\myproject\mdfreader\mdfreader\include\pytime.h(209): error C2491: “_PyTime_GetMonotonicClockWithInfo”: 不允许 dllimport 数据 的定义
+     1>d:\myproject\mdfreader\mdfreader\include\pytime.h(209): error C2078: 初始值设定项太多
+     1>d:\myproject\mdfreader\mdfreader\include\pytime.h(229): error C2146: 语法错误: 缺少“;”(在标识符“_PyTime_GetPerfCounter”的前面)
+     1>d:\myproject\mdfreader\mdfreader\include\pytime.h(229): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+     1>d:\myproject\mdfreader\mdfreader\include\pytime.h(229): error C2370: “_PyTime_t”: 重定义；不同的存储类
+                 d:\myproject\mdfreader\mdfreader\include\pytime.h(19) : 参见“_PyTime_t”的声明
+     1>d:\myproject\mdfreader\mdfreader\include\pytime.h(229): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+     1>d:\myproject\mdfreader\mdfreader\include\pytime.h(238): error C2065: “t”: 未声明的标识符
+     1>d:\myproject\mdfreader\mdfreader\include\pytime.h(239): error C2065: “info”: 未声明的标识符
+     1>d:\myproject\mdfreader\mdfreader\include\pytime.h(239): error C2275: “_Py_clock_info_t”: 将此类型用作表达式非法
+                 d:\myproject\mdfreader\mdfreader\include\pytime.h(189) : 参见“_Py_clock_info_t”的声明
+     1>d:\myproject\mdfreader\mdfreader\include\pytime.h(239): error C2491: “_PyTime_GetPerfCounterWithInfo”: 不允许 dllimport 数据 的定义
+     1>d:\myproject\mdfreader\mdfreader\include\pytime.h(239): error C2078: 初始值设定项太多
+     1>d:\myproject\mdfreader\mdfreader\include\pyhash.h(64): error C2146: 语法错误: 缺少“;”(在标识符“k0”的前面)
+     1>d:\myproject\mdfreader\mdfreader\include\pyhash.h(64): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+     1>d:\myproject\mdfreader\mdfreader\include\pyhash.h(64): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+     1>d:\myproject\mdfreader\mdfreader\include\pyhash.h(65): error C2146: 语法错误: 缺少“;”(在标识符“k1”的前面)
+     1>d:\myproject\mdfreader\mdfreader\include\pyhash.h(65): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+     1>d:\myproject\mdfreader\mdfreader\include\pyhash.h(65): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+     1>d:\myproject\mdfreader\mdfreader\include\unicodeobject.h(102): error C2146: 语法错误: 缺少“;”(在标识符“Py_UCS4”的前面)
+     1>d:\myproject\mdfreader\mdfreader\include\unicodeobject.h(102): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+     1>d:\myproject\mdfreader\mdfreader\include\unicodeobject.h(102): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+     1>d:\myproject\mdfreader\mdfreader\include\unicodeobject.h(103): error C2146: 语法错误: 缺少“;”(在标识符“Py_UCS2”的前面)
+     1>d:\myproject\mdfreader\mdfreader\include\unicodeobject.h(103): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+     1>d:\myproject\mdfreader\mdfreader\include\unicodeobject.h(103): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+     1>d:\myproject\mdfreader\mdfreader\include\unicodeobject.h(104): error C2146: 语法错误: 缺少“;”(在标识符“Py_UCS1”的前面)
+     1>d:\myproject\mdfreader\mdfreader\include\unicodeobject.h(104): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+     1>d:\myproject\mdfreader\mdfreader\include\unicodeobject.h(104): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+     1>d:\myproject\mdfreader\mdfreader\include\unicodeobject.h(154): error C2143: 语法错误 : 缺少“;”(在“*”的前面)
+     1>d:\myproject\mdfreader\mdfreader\include\unicodeobject.h(154): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+     1>d:\myproject\mdfreader\mdfreader\include\unicodeobject.h(154): error C2370: “Py_UCS4”: 重定义；不同的存储类
+                 d:\myproject\mdfreader\mdfreader\include\unicodeobject.h(102) : 参见“Py_UCS4”的声明
+     1>d:\myproject\mdfreader\mdfreader\include\unicodeobject.h(156): error C2061: 语法错误: 标识符“Py_UCS4”
+     1>d:\myproject\mdfreader\mdfreader\include\unicodeobject.h(158): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+     1>d:\myproject\mdfreader\mdfreader\include\unicodeobject.h(163): error C2143: 语法错误 : 缺少“;”(在“*”的前面)
+     1>d:\myproject\mdfreader\mdfreader\include\unicodeobject.h(163): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+     1>d:\myproject\mdfreader\mdfreader\include\unicodeobject.h(163): error C2370: “Py_UCS4”: 重定义；不同的存储类
+                 d:\myproject\mdfreader\mdfreader\include\unicodeobject.h(102) : 参见“Py_UCS4”的声明
+     1>d:\myproject\mdfreader\mdfreader\include\unicodeobject.h(163): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+     1>d:\myproject\mdfreader\mdfreader\include\unicodeobject.h(184): error C2146: 语法错误: 缺少“;”(在标识符“PyUnicode_ReadChar”的前面)
+     1>d:\myproject\mdfreader\mdfreader\include\unicodeobject.h(184): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+     1>d:\myproject\mdfreader\mdfreader\include\unicodeobject.h(184): error C2370: “Py_UCS4”: 重定义；不同的存储类
+                 d:\myproject\mdfreader\mdfreader\include\unicodeobject.h(102) : 参见“Py_UCS4”的声明
+     1>d:\myproject\mdfreader\mdfreader\include\unicodeobject.h(187): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+     1>d:\myproject\mdfreader\mdfreader\include\unicodeobject.h(197): error C2061: 语法错误: 标识符“Py_UCS4”
+     1>d:\myproject\mdfreader\mdfreader\include\unicodeobject.h(945): error C2061: 语法错误: 标识符“Py_UCS4”
+     1>d:\myproject\mdfreader\mdfreader\include\cpython\unicodeobject.h(243): error C2143: 语法错误 : 缺少“;”(在“*”的前面)
+     1>d:\myproject\mdfreader\mdfreader\include\cpython\unicodeobject.h(243): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+     1>d:\myproject\mdfreader\mdfreader\include\cpython\unicodeobject.h(243): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+     1>d:\myproject\mdfreader\mdfreader\include\cpython\unicodeobject.h(244): error C2143: 语法错误 : 缺少“;”(在“*”的前面)
+     1>d:\myproject\mdfreader\mdfreader\include\cpython\unicodeobject.h(244): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+     1>d:\myproject\mdfreader\mdfreader\include\cpython\unicodeobject.h(244): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+     1>d:\myproject\mdfreader\mdfreader\include\cpython\unicodeobject.h(245): error C2143: 语法错误 : 缺少“;”(在“*”的前面)
+     1>d:\myproject\mdfreader\mdfreader\include\cpython\unicodeobject.h(245): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+     1>d:\myproject\mdfreader\mdfreader\include\cpython\unicodeobject.h(245): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+     1>d:\myproject\mdfreader\mdfreader\include\cpython\unicodeobject.h(461): error C2061: 语法错误: 标识符“Py_UCS4”
+     1>d:\myproject\mdfreader\mdfreader\include\cpython\unicodeobject.h(529): error C2061: 语法错误: 标识符“Py_UCS4”
+     1>d:\myproject\mdfreader\mdfreader\include\cpython\unicodeobject.h(538): error C2061: 语法错误: 标识符“Py_UCS4”
+     1>d:\myproject\mdfreader\mdfreader\include\cpython\unicodeobject.h(538): fatal error C1003: 错误计数超过 100；正在停止编译
+         MDFData.cpp
+         正在生成代码...
+     1>已完成生成项目“D:\MyProject\MDFReader\MDFReader\MDFReader.vcxproj”(build 个目标)的操作 - 失败。
+
+生成失败。
+
+已用时间 00:00:00.56
